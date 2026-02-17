@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>رحمه | Fashion Designer</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>رحمه</h1>
+      <p>Fashion Designer – تصميم أزياء يعبر عنك</p>
+      <a href="#booking">احجزي معادك</a>
+    </header>
+
+    <section>
+      <h2>عن رحمه</h2>
+      <p class="section-desc">براند أزياء يهتم بأدق التفاصيل</p>
+
+      <div class="about">
+        <p>
+          رحمه مصممة أزياء متخصصة في تصميم قطع فريدة حسب شخصية كل عميلة، من
+          الفكرة للتنفيذ بأسلوب راقي ولمسة فنية مميزة.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1520974735194-2ab3e8b7a3b1"
+        />
+      </div>
+    </section>
+
+    <section>
+      <h2>أعمالي</h2>
+      <p class="section-desc">نماذج من أحدث التصاميم</p>
+
+      <div class="gallery">
+        <img
+          src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1503342394128-c104d54dba01"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1520975916090-3105956dac38"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1520974735194-2ab3e8b7a3b1"
+        />
+      </div>
+    </section>
+
+    <section>
+      <h2>التسعير</h2>
+      <p class="section-desc">اختاري الباقة المناسبة ليك</p>
+
+      <div class="pricing">
+        <div class="price-card" data-package="باقة بسيطة">
+          <h3>باقة بسيطة</h3>
+          <div class="price">800 <span>جنيه</span></div>
+          <ul>
+            <li>قطعة واحدة</li>
+            <li>تعديلات محدودة</li>
+            <li>استشارة واحدة</li>
+          </ul>
+        </div>
+
+        <div class="price-card" data-package="باقة مميزة">
+          <h3>باقة مميزة</h3>
+          <div class="price">1500 <span>جنيه</span></div>
+          <ul>
+            <li>قطعتين</li>
+            <li>تعديلات مفتوحة</li>
+            <li>اختيار خامات</li>
+            <li>متابعة كاملة</li>
+          </ul>
+        </div>
+
+        <div class="price-card" data-package="باقة VIP">
+          <h3>باقة VIP</h3>
+          <div class="price">3000 <span>جنيه</span></div>
+          <ul>
+            <li>تصميم كامل</li>
+            <li>أولوية تنفيذ</li>
+            <li>تعديلات غير محدودة</li>
+            <li>متابعة شخصية</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking">
+      <h2>احجزي معاد</h2>
+      <p class="section-desc">وسيتم التواصل معك فوراً</p>
+
+      <div class="booking">
+        <div class="selected-text" id="selectedText">لم يتم اختيار باقة</div>
+
+        <form
+          action="https://formsubmit.co/hjbdjjdkdjus890@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value="حجز تصميم جديد" />
+          <input type="hidden" name="الباقة" id="packageInput" />
+
+          <input type="text" name="الاسم" placeholder="الاسم" required />
+          <input
+            type="tel"
+            name="الموبايل"
+            placeholder="رقم الموبايل"
+            required
+          />
+          <input type="date" name="المعاد" required />
+          <textarea
+            name="تفاصيل التصميم"
+            placeholder="تفاصيل التصميم"
+          ></textarea>
+
+          <button type="submit">تأكيد الحجز</button>
+        </form>
+      </div>
+    </section>
+
+    <a class="whatsapp" href="https://wa.me/201091654035" target="_blank"
+      >💬 واتساب</a
+    >
+
+    <footer>© 2026 رحمه – Fashion Designer</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
